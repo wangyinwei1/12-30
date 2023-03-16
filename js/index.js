@@ -110,3 +110,18 @@ $(".yy2").on("click", ".a1", function () {
   })
   d.show()
 })
+
+$(".btn").on("click", function () {
+  $(".openbox").css("display", "none")
+  var title = $(this).find("span").html()
+  var content = $(
+    "<div class='submit-success'><div class='submit-img'></div><p class='submit-title'>提交成功!</p><p class='desc'>我们会在3个工作日之内联系您。</p></div>"
+  )
+  var d = dialog({
+    content: content,
+  })
+  d.show()
+  setTimeout(function () {
+    d.close().remove()
+  }, 1000)
+})

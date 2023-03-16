@@ -394,7 +394,7 @@ input {
   font-size: 0.64rem;
   font-weight: bold;
   line-height: 1.08rem;
-  font-family: "GOTHIC";
+  font-family: "GOTHICB";
 }
 .fzlist .p2 {
   line-height: 150%;
@@ -406,6 +406,7 @@ input {
   margin-bottom: 0.1rem;
   vertical-align: baseline;
   display: inline-block;
+  font-family: "GOTHIC";
   font-size: ;
 }
 .fzlist .p2 span {
@@ -419,7 +420,7 @@ input {
   display: inline-block;
   text-align: center;
 
-  font-family: "GOTHIC";
+  font-family: "GOTHICB";
   vertical-align: baseline;
 }
 .fzlist .p2 .month {
@@ -427,6 +428,7 @@ input {
   width: 0.16rem;
   margin-bottom: 0;
   margin-right: 0.3rem;
+  font-family: "GOTHIC";
 }
 .fzlist .fzimg {
   padding-top: 0.75rem;
@@ -479,8 +481,9 @@ input {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: fixed;
-  top: 35%;
-  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0.56rem;
   z-index: 1000;
 }
 .router-nav-item {
@@ -490,6 +493,9 @@ input {
   color: #eee;
   display: block;
   cursor: pointer;
+}
+.router-nav-item-active {
+  color: #e5db3c;
 }
 .gzld-wrap {
   width: 100%;
@@ -512,6 +518,8 @@ input {
 .gzbody .gzt {
   width: 32%;
   color: #898989;
+  font-size: 0.16rem;
+  line-height: 0.25rem;
 }
 .gzlist {
   width: 100%;
@@ -557,6 +565,24 @@ input {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: flex-start;
+}
+.zscq .title-wrap {
+  height: 2.04rem;
+  text-align: center;
+  width: 100%;
+}
+.zscq .title-wrap .dec {
+  color: #dbdcdc;
+  font-size: 0.88rem;
+  line-height: 0.7rem;
+  font-family: "GOTHICB";
+  font-weight: bold;
+}
+.zscq .title-wrap .title {
+  color: #231815;
+  font-size: 0.32rem;
+  line-height: 0.32rem;
+  padding-bottom: 0.2rem;
 }
 .zsl {
   width: 78%;
@@ -616,7 +642,8 @@ input {
   font-size: 0.32rem;
   color: #221815;
   line-height: 150%;
-  margin-top: 2rem;
+  margin-top: 1.6rem;
+  padding-bottom: 0.9rem;
 }
 .yyp2 {
   font-size: 0.18rem;
@@ -682,12 +709,26 @@ input {
   color: #9fa0a0;
   margin-top: 1rem;
   margin-bottom: 0.3rem;
+  font-weight: 500;
 }
 .yy2 .a1 {
   font-size: 0.16rem;
   color: #5f82be;
   border-bottom: 1px #5f82be solid;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.26rem;
+}
+.phone {
+  color: #3e3a39;
+  font-size: 14px;
+}
+.phone .ph2 {
+  padding-right: 4px;
+}
+.phone .ph2 {
+  padding-right: 12px;
+}
+.phone span {
+  font-weight: 500;
 }
 .yy3 {
   width: 1145px;
@@ -847,14 +888,28 @@ input {
   align-items: center;
 }
 .operational {
-  color: #f7f8f8;
+  color: #dbdcdc;
   font-size: 0.88rem;
   font-weight: bold;
   width: 100%;
   left: 0;
-  top: -0.3rem;
+  top: -0.44rem;
   text-align: center;
   z-index: -1;
+}
+.down {
+  background-image: url("../img/down-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  width: 1.06rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 0.29rem;
+  height: 0.29rem;
+  color: #717071;
+  font-size: 14px;
+  cursor: pointer;
 }
 .openbox {
   width: 100%;

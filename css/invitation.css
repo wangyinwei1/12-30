@@ -1,0 +1,61 @@
+.ui-popup-focus .ui-dialog .ui-dialog-body {
+  background: #fff !important;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.ui-popup-focus .ui-dialog .ui-dialog-body .modal {
+  color: #a0a0a0;
+  border: 0;
+}
+.ui-popup-focus .ui-dialog .ui-dialog-body .modal span {
+  text-align: center;
+  display: block;
+}
+.ui-popup-focus .ui-dialog .ui-dialog-title {
+  text-align: left;
+  padding: 10px;
+  font-size: 18px;
+}
+.ui-popup-focus .ui-dialog .ui-dialog-grid {
+  background: #c4c4c4;
+}
+.ui-popup-focus .ui-dialog .ui-dialog-close {
+  top: 13px;
+}
+
+.ui-popup-focus .ui-dialog .ui-dialog-body .ui-dialog-content {
+  padding-left: 28px;
+  padding-right: 28px;
+  max-height: 500px;
+  overflow: auto;
+  padding-bottom: 118px;
+}
+
+.submit-success {
+  width: 7.28rem;
+  height: 6.7rem;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.submit-success .submit-img {
+  width: 102px;
+  height: 102px;
+  background-image: url("../img/duigou.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 56px;
+}
+.submit-success .desc {
+  font-size: 14px;
+  color: #ababab;
+  font-weight: 500;
+}
+.submit-success .submit-title {
+  font-size: 25px;
+  color: #1f1f1f;
+  padding-bottom: 16px;
+}
